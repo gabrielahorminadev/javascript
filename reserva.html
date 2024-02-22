@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Venha realizar a viagem dos sonhos</h1>
+    </header>
+    <section>
+        <h2>Conheça nossos pacotes</h2>
+        <p>
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br><br>
+        <hr>
+        </p>
+
+        <h1>Orçamento</h1>
+        <form method="post" action="nome">
+
+            <fieldset>
+                <legend>Cadastro</legend>
+            
+                <label>Nome</label><br>
+                    <input type="text" name="nome"><br><br>
+
+                    <label>Email</label><br>
+                        <input type="email" required name="email"><br>
+
+                <label>Comentario</label><br>
+                    <textarea row="7" name="comentario"></textarea><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Serviços Desejados</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens">Compra de Passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veiculos" value="Veiculo">Aluguel de Veículos
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartao de credito"> Cartão de crédito
+                </label>
+
+                    <br><input type="radio" name="formaPagamento" value="Boleto"> Boleto
+                </label>
+
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix"> PIX
+                </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Prazo de Pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">Á vista</option>
+                <option value="cincovezes">5x sem juros</option>
+                <option value="dezvezes">10x com juros</option>
+                </select>
+            </fieldset>
+            <br>
+                <input type="submit" value="enviar">
+
+        </form>
+       
+    </section>
+    <footer>
+        <p>Desenvolvido por Gabriela Hormina</p>
+    </footer>
+</body>
+</html>
